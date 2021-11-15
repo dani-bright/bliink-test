@@ -1,0 +1,41 @@
+.article img,
+.fakeImg {
+    width: 200px;
+    text-align: center;
+}
+
+.fakeImg {
+    background: #eee;
+    height: 100px;
+    color: rgb(155, 153, 153);
+    line-height: 100px;
+}
+
+.articles,
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.filter {
+    padding: 4px;
+    background: rgb(66, 96, 196);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.article {
+    position: relative;
+    width: 200px;
+    height: 290px;
+    text-align: center;
+    margin: 6px;
+    cursor: pointer;
+}
